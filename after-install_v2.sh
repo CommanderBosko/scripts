@@ -15,7 +15,6 @@ $PACMAN_CMD
 echo
 echo "Package installation complete. Please run 'Grub Customizer' to configure your kernels, then restart your computer."
 echo
-read -p "Press Enter to close this terminal window."
 EOF
 
 # Check for the default terminal emulator and run the temporary script
