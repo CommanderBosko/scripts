@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the command to refresh package databases and install packages
-PACMAN_CMD="sudo pacman -Syy && sudo pacman -S --needed --noconfirm alacritty btop curl discord discover distrobox docker fastfetch firefox flatpak git gnome-boxes grub-customizer htop linux-lts linux-lts-headers linux-zen linux-zen-headers lutris nvidia-dkms nvidia-utils lib32-nvidia-utils podman qbittorrent spotify-launcher starship steam-native-runtime thunderbird timeshift vim vlc wine wine-gecko wine-mono winetricks"
+PACMAN_CMD="sudo pacman -Syy && sudo pacman -S --needed --noconfirm alacritty btop curl discord discover distrobox docker fastfetch firefox flatpak git gnome-boxes grub-customizer linux linux-headers htop linux-lts linux-lts-headers linux-zen linux-zen-headers lutris nvidia-dkms nvidia-utils lib32-nvidia-utils podman qbittorrent spotify-launcher starship steam-native-runtime thunderbird timeshift vim vlc wine wine-gecko wine-mono winetricks"
 
 # Create a temporary script to be executed in the terminal
 TEMP_SCRIPT=$(mktemp)
